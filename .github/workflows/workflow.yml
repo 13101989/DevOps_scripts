@@ -25,6 +25,7 @@ jobs:
         with:
           path: "./demo-github-actions/dist/"
       - name: Deployment of web page
+        id: deploymentID
         uses: actions/deploy-pages@v2
 
 
