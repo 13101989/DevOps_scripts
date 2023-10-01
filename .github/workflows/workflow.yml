@@ -17,7 +17,7 @@ jobs:
       - name: Hello World
         run: echo "Hello World!"
       - name: Clone repository
-        use: actions/checkout@v3
+        uses: actions/checkout@v3
 
 
            
