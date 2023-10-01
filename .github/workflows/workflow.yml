@@ -23,9 +23,9 @@ jobs:
         with:
           root: demo-github-actions/dist/
       - name: Check environment
-        run: echo ${{secrets.author_name}}
+        run: echo "${{ secrets.author_name }}"
       - name: Check version
-        run: echo ${{env.version}}
+        run: echo "${{ env.version }}"
   deploy:
     needs: [test]
     environment:
