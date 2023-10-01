@@ -24,6 +24,9 @@ jobs:
         uses: actions/upload-pages-artifact@v2
         with:
           path: "./demo-github-actions/dist/"
+      - name: Deployment of web page
+        uses: actions/deploy-pages@v2
+
 
 
 
